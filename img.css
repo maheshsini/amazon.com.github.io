@@ -1,0 +1,185 @@
+/* Start navigation*/
+.navbar{
+margin: 0px 0px;
+}
+
+#logo,img{
+    height: 58px;
+    margin: 1px 10px;
+}
+
+#navbar,ul{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar,ul,li{
+    list-style: none;
+    font-size: 1.0rem;
+}
+#navbar,ul,a,li{
+    display: flex;
+    margin: 4px 6px;
+    padding:3px 4px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: left;
+    justify-content: center;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(117, 133, 127);
+    border: 2px solid lightpink;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(images/logo.jpg.webp);
+    background-position: center;
+}
+/* end navigation */
+
+/* start home section */
+#home{ 
+    color: white;
+    text-align: center;
+    margin: 0px 143px;
+    padding: 46px 26px;
+    justify-content: center;
+    font-size: 150%;
+}
+#home h1{
+    color: white;
+    font-size: 250%;
+}
+button{
+    color: black;
+    background-color: lightgreen;
+    font-size: larger;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: darkred;
+    background-color: darkgreen;
+}
+/* End Home section */
+/* service section start */
+#services{
+    display: flex;
+    margin: 40px;
+    color: white;
+
+}
+
+#services .box{
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 62px 30px;
+    margin: 6px 40px 12px 36px;
+    background-color: cadetblue;
+
+}
+#services .box img{
+    height: 46%;
+    width: 80%;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+    height: 24px;  
+}
+/* End service selection */
+/* start our clint */
+#fruits{
+    background-color: aquamarine;
+    border: 4px solid white;
+    border-radius: 10px;
+    height: 260px;
+    margin: 35px 66px 35px 66px;
+}
+#mano #banan{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 85px;
+    height: 0px;
+    background-color: darkgoldenrod;
+}
+.col{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#banan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px;
+}
+.bana{
+    padding: 34px 34px;
+}
+
+#banan img{
+    height: 95px;
+    margin: 20px 20px;
+    border: 4px solid lightseagreen;
+}
+/* End our client */
+/* start contact section */
+#contact-box{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #9AC5F4;
+    ;
+}
+input,textarea{
+    padding: 8px 177px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+/* start contact section */
+/* start footer section */
+.footer{
+    display: inline;
+    margin: 12px 12px ;
+    padding: 12px 12px;
+    
+}
+.copy{
+    background-color: rgb(24, 22, 22);
+    text-align: center;
+    color :white;
+    font-size: 25px;
+    padding: 8px;
+
+}
+.footer-item{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 145px 40px 6px;
+    ;
+}
+/* end footer section */
+
+
+
+
+
